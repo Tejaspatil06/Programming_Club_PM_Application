@@ -35,5 +35,3 @@ plt.title('India Country Boundary')
 plt.xlabel('Longitude')
 plt.ylabel('Latitude')
 plt.show()
-
-Programming_Club_PM_Application
