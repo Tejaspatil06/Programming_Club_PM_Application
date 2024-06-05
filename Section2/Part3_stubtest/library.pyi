@@ -3,8 +3,8 @@
 #error: library.x variable differs from runtime type Literal['hello, stubtest']
 
 
-# x: int
-# def foo(x: int) -> None: ...
+x: int
+def foo(x: int) -> None: ...
 
 #chnaging the code to the code given below will give correct ouput
 
