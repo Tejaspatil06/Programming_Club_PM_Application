@@ -3,8 +3,8 @@
 #error: library.x variable differs from runtime type Literal['hello, stubtest']
 
 
-x: int
-def foo(x: int) -> None: ...
+# x: int
+# def foo(x: int) -> None: ...
 
 #chnaging the code to the code given below will give correct ouput
 
@@ -14,4 +14,4 @@ x: str
 def foo(x: Optional[int] = None) -> None: ...
 
 
-#check the code by running : "python -m mypy.stubtest library" in the correct directory
+#check the code by running : "python -m mypy.stubtest stubtest" in the correct directory

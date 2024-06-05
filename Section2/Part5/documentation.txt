@@ -1,0 +1,16 @@
+1. Changed parameter job to occupation.his change ensures clarity in the naming convention. 
+The attribute job is now referred to as occupation both internally and externally.
+
+
+2. Privatized _job to _occupation:
+The internal attribute _job is now _occupation to match the updated naming convention.
+
+
+3. Deprecation Warnings:
+Added job property and setter with deprecation warnings.
+The warnings inform users to use the occupation property instead of job in the console/terminal.
+
+
+4. Similar Steps has been taken for Child class
+
+

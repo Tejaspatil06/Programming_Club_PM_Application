@@ -2,8 +2,8 @@ import numpy as np
 import geopandas as gp
 import matplotlib.pyplot as plt
 from geopandas.tools import sjoin, overlay  
-from osgeo import gdal, gdalnumeric, ogr, osr 
-
+from osgeo import gdal, ogr, osr, gdal_array
+ogr.UseExceptions()
 
 #reading the shp file 
 shapefile_path = '/Users/tejaspatil/Desktop/PM_APP/Section1/India-State-and-Country-Shapefile-Updated-Jan-2020/India_Country_Boundary.shp'
